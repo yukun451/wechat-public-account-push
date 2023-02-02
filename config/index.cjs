@@ -23,17 +23,17 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'olgmS6kdB4xjEwlMOWqWopTcNU3Q',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: '58DxkQ8u3cQ9EUva8eOMQULwyGOwxYyGvj2M_YpSNaA',
+      useTemplateId: 'gPf77O7MV2-u4kINRen8LccQeGGNi1Cewr5QlgX_gok',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '11-23',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '梅梅农历', year: '1996', date: '10-13',
+          type: '*生日', name: '老婆农历', year: '1996', date: '10-13',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '生日', name: '梅梅新历', year: '1996', date: '11-23',
+          type: '生日', name: '老婆新历', year: '1996', date: '11-23',
         },
         {
           type: '节日', name: '相识纪念日', year: '2021', date: '02-15',
@@ -53,20 +53,20 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'olgmS6sJ6LldCuzA1qfqVSxr-8NI',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: '58DxkQ8u3cQ9EUva8eOMQULwyGOwxYyGvj2M_YpSNaA',
+      useTemplateId: 'gPf77O7MV2-u4kINRen8LccQeGGNi1Cewr5QlgX_gok',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '11-23',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-        {
-          type: '*生日', name: '梅梅农历', year: '1996', date: '10-13',
-        },
+        //{
+         // type: '*生日', name: '老婆农历', year: '1996', date: '10-13',
+        //},
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '生日', name: '梅梅新历', year: '1996', date: '11-23',
+          type: '生日', name: '老婆', year: '1996', date: '11-23',
         },
         {
-          type: '节日', name: '相识纪念日', year: '2021', date: '02-15',
+          type: '节日', name: '相恋纪念日', year: '2021', date: '03-14',
         },
       ],
       // 我们在一起已经有xxxx天了的配置

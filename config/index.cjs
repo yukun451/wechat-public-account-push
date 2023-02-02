@@ -21,9 +21,9 @@ const USER_CONFIG = {
       // 想要发送的人的名字
       name: '梅梅宝贝',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: '于坤',
+      id: 'olgmS6sJ6LldCuzA1qfqVSxr-8NI',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: '	7LFP-not_JNInZ2RtRoW491QMfawZaub-qSSiJAjZ_g',
+      useTemplateId: '7LFP-not_JNInZ2RtRoW491QMfawZaub-qSSiJAjZ_g',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '11-23',
       festivals: [

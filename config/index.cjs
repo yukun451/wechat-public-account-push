@@ -26,6 +26,7 @@ const USER_CONFIG = {
       useTemplateId: 'VIhEWi3kNtoHv2g8oCLtpvMkCZ-oUoVllxKQIsnF8T8',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '11-23',
+      openUrl: 'https://xiayigejiaqi.com',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
@@ -56,6 +57,7 @@ const USER_CONFIG = {
       useTemplateId: 'VIhEWi3kNtoHv2g8oCLtpvMkCZ-oUoVllxKQIsnF8T8',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '11-23',
+      openUrl: 'https://xiayigejiaqi.com',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         //{

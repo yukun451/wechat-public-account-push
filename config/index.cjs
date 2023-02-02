@@ -28,13 +28,10 @@ const USER_CONFIG = {
       horoscopeDate: '11-23',
       openUrl: 'https://xiayigejiaqi.com',
       festivals: [
-        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-        {
-          type: '*生日', name: '老婆农历', year: '1996', date: '10-13',
-        },
+
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '生日', name: '老婆新历', year: '1996', date: '11-23',
+          type: '生日', name: '美丽可爱亲亲老婆', year: '1996', date: '11-23',
         },
         {
           type: '节日', name: '相识纪念日', year: '2021', date: '02-15',
@@ -57,15 +54,11 @@ const USER_CONFIG = {
       useTemplateId: 'VIhEWi3kNtoHv2g8oCLtpvMkCZ-oUoVllxKQIsnF8T8',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '11-23',
-      openUrl: 'https://xiayigejiaqi.com',
+      openUrl:'https://xiayigejiaqi.com',
       festivals: [
-        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-        //{
-         // type: '*生日', name: '老婆农历', year: '1996', date: '10-13',
-        //},
          //注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '生日', name: '老婆', year: '1996', date: '11-23',
+          type: '生日', name: '美丽可爱亲亲老婆', year: '1996', date: '11-23',
         },
         {
           type: '节日', name: '相恋纪念日', year: '2021', date: '03-14',

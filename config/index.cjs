@@ -23,7 +23,7 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'olgmS6kdB4xjEwlMOWqWopTcNU3Q',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'gPf77O7MV2-u4kINRen8LccQeGGNi1Cewr5QlgX_gok',
+      useTemplateId: 'VIhEWi3kNtoHv2g8oCLtpvMkCZ-oUoVllxKQIsnF8T8',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '11-23',
       festivals: [
@@ -53,7 +53,7 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'olgmS6sJ6LldCuzA1qfqVSxr-8NI',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'gPf77O7MV2-u4kINRen8LccQeGGNi1Cewr5QlgX_gok',
+      useTemplateId: 'VIhEWi3kNtoHv2g8oCLtpvMkCZ-oUoVllxKQIsnF8T8',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '11-23',
       festivals: [
@@ -61,7 +61,7 @@ const USER_CONFIG = {
         //{
          // type: '*生日', name: '老婆农历', year: '1996', date: '10-13',
         //},
-        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+         //注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
           type: '生日', name: '老婆', year: '1996', date: '11-23',
         },

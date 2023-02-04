@@ -23,7 +23,7 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'olgmS6s7eBKLgSw6xHqeafAZAM60',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'TbaAuS2zCw0vK_O3L1N56QyYhLru8xntS2er4Osyd_4',
+      useTemplateId: 'sdQrSqNX6N1GoVCoLNebKmsErl4DoLmWxB_zK9Oanhc',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '11-23',
       openUrl: 'https://xiayigejiaqi.com',
@@ -51,7 +51,7 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'olgmS6sJ6LldCuzA1qfqVSxr-8NI',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'TbaAuS2zCw0vK_O3L1N56QyYhLru8xntS2er4Osyd_4',
+      useTemplateId: 'sdQrSqNX6N1GoVCoLNebKmsErl4DoLmWxB_zK9Oanhc',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '11-23',
       openUrl:'https://xiayigejiaqi.com',

@@ -17,41 +17,41 @@ const USER_CONFIG = {
   CITY: '惠安',
 
   USERS: [
-    {
-      // 想要发送的人的名字
-      name: '梅梅宝贝',
-      // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'olgmS6s7eBKLgSw6xHqeafAZAM60',
-      // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'sdQrSqNX6N1GoVCoLNebKmsErl4DoLmWxB_zK9Oanhc',
-      // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
-      horoscopeDate: '11-23',
-      openUrl: 'https://xiayigejiaqi.com',
-      festivals: [
+    // {
+    //   // 想要发送的人的名字
+    //   name: '梅梅宝贝',
+    //   // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
+    //   id: 'olgmS6s7eBKLgSw6xHqeafAZAM60',
+    //   // 使用微信测试号：你想对他发送的模板消息的模板ID
+    //   useTemplateId: '0l_gsbXAQqT2vZ7rPYcMT-P7agkUbNmUlJgHBOR-xLw',
+    //   // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
+    //   horoscopeDate: '11-23',
+    //   openUrl: 'https://xiayigejiaqi.com',
+    //   festivals: [
 
-        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-        {
-          type: '生日', name: '美丽可爱亲亲老婆', year: '1996', date: '11-23',
-        },
-        {
-          type: '节日', name: '相恋纪念日', year: '2021', date: '03-14',
-        },
-      ],
-      // 我们在一起已经有xxxx天了的配置
-      customizedDateList: [
-        // 在一起的日子
-        { keyword: 'love_day', date: '2021-03-14' },
-        // 结婚纪念日
-        { keyword: 'marry_day', date: '2023-01-27' },
-      ],
-    }, 
+    //     // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+    //     {
+    //       type: '生日', name: '美丽可爱亲亲老婆', year: '1996', date: '11-23',
+    //     },
+    //     {
+    //       type: '节日', name: '相恋纪念日', year: '2021', date: '03-14',
+    //     },
+    //   ],
+    //   // 我们在一起已经有xxxx天了的配置
+    //   customizedDateList: [
+    //     // 在一起的日子
+    //     { keyword: 'love_day', date: '2021-03-14' },
+    //     // 结婚纪念日
+    //     { keyword: 'marry_day', date: '2023-01-27' },
+    //   ],
+    // }, 
     {
       // 想要发送的人的名字
       name: 'yukun',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'olgmS6sJ6LldCuzA1qfqVSxr-8NI',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'sdQrSqNX6N1GoVCoLNebKmsErl4DoLmWxB_zK9Oanhc',
+      useTemplateId: '0l_gsbXAQqT2vZ7rPYcMT-P7agkUbNmUlJgHBOR-xLw',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '11-23',
       openUrl:'https://xiayigejiaqi.com',
@@ -74,6 +74,41 @@ const USER_CONFIG = {
     },
   ],
 
+  courseSchedule:  [
+      // 例子，周一的课表
+      [
+        '09:10-09:50 数学',
+        '17:10-17:30 越野跑',
+        '19:50-20:30 数学'
+      ],
+      // 周二
+      [
+        '08:20-09:00 数学',
+        '14:50-15:30 数学',
+        '17:10-17:30 越野跑'
+      ],
+      // 周三
+      [
+        '08:20-09:00 数学',
+        '09:10-09:50 数学',
+        '17:10-17:30 越野跑',
+        '19:50-20:30 数学'
+      ],
+      // 周四
+      [
+        '09:10-09:50 数学',
+        '17:10-17:30 越野跑',
+        '19:00-19:40 班会'
+      ],
+      // 周五
+      [
+        '09:10-09:50 数学',
+        '16:15-18:20 回家'
+      ],
+      [],
+      []
+
+  ],
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
   CALLBACK_TEMPLATE_ID: 'yitgePmNudV9tzFRd8YMcsAbGzMEME-Gghzmalpx5xM',

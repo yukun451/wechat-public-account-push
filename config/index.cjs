@@ -17,34 +17,34 @@ const USER_CONFIG = {
   CITY: '惠安',
 
   USERS: [
-    // {
-    //   // 想要发送的人的名字
-    //   name: '梅梅宝贝',
-    //   // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-    //   id: 'olgmS6s7eBKLgSw6xHqeafAZAM60',
-    //   // 使用微信测试号：你想对他发送的模板消息的模板ID
-    //   useTemplateId: '0l_gsbXAQqT2vZ7rPYcMT-P7agkUbNmUlJgHBOR-xLw',
-    //   // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
-    //   horoscopeDate: '11-23',
-    //   openUrl: 'https://xiayigejiaqi.com',
-    //   festivals: [
+    {
+      // 想要发送的人的名字
+      name: '梅梅宝贝',
+      // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
+      id: 'olgmS6s7eBKLgSw6xHqeafAZAM60',
+      // 使用微信测试号：你想对他发送的模板消息的模板ID
+      useTemplateId: '0l_gsbXAQqT2vZ7rPYcMT-P7agkUbNmUlJgHBOR-xLw',
+      // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
+      horoscopeDate: '11-23',
+      openUrl: 'https://xiayigejiaqi.com',
+      festivals: [
 
-    //     // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-    //     {
-    //       type: '生日', name: '美丽可爱亲亲老婆', year: '1996', date: '11-23',
-    //     },
-    //     {
-    //       type: '节日', name: '相恋纪念日', year: '2021', date: '03-14',
-    //     },
-    //   ],
-    //   // 我们在一起已经有xxxx天了的配置
-    //   customizedDateList: [
-    //     // 在一起的日子
-    //     { keyword: 'love_day', date: '2021-03-14' },
-    //     // 结婚纪念日
-    //     { keyword: 'marry_day', date: '2023-01-27' },
-    //   ],
-    // }, 
+        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+        {
+          type: '生日', name: '美丽可爱亲亲老婆', year: '1996', date: '11-23',
+        },
+        {
+          type: '节日', name: '相恋纪念日', year: '2021', date: '03-14',
+        },
+      ],
+      // 我们在一起已经有xxxx天了的配置
+      customizedDateList: [
+        // 在一起的日子
+        { keyword: 'love_day', date: '2021-03-14' },
+        // 结婚纪念日
+        { keyword: 'marry_day', date: '2023-01-27' },
+      ],
+    }, 
     {
       // 想要发送的人的名字
       name: 'yukun',
